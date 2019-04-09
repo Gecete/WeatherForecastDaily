@@ -13,9 +13,7 @@ GPIO.setup(verde, GPIO.OUT)
 GPIO.output(rojo, False)
 GPIO.output(verde, False)
 # api - endpoint
-URL = "http://dataservice.accuweather.com/forecasts/v1/daily/1day/307297?apikey=GZfFqIdbS5ObEpGju9TMJqYXz9XjKKo1"
-
-URL = "http://dataservice.accuweather.com/forecasts/v1/daily/1day/307297?apikey=CdfUdiGhheabSNU0Nme56GFU4IbfWtaC"
+URL = "http://dataservice.accuweather.com/forecasts/v1/daily/1day/307297?apikey=APIKEY"
 
 PARAMS = {
 	'details': False,
